@@ -1,32 +1,65 @@
-.heading{
+.heading {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.a{
+.a {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-.a1{
+
+.a1 {
     font-style: italic;
 }
-.a2{
-    font-weight:bolder ;
+
+.a2 {
+    font-weight: bolder;
 }
-.a3{
+
+.a3 {
+    text-decoration: underline;
+}
+
+
+.newHead {
+    color: rgb(59 67 102);
+    font-family: "Momo Trust Display", sans-serif;
+    background-color: #efefef;
+    letter-spacing:3px;
+}
+
+.newA {
+    background-color: #f493f4;
+    font-family: "Momo Signature", cursive;
+    color: rgb(255 255 255);
+    line-height:3;
+
+}
+
+.font{
+    font-family:cursive;
     text-decoration:underline;
+    text-decoration-color: #f493f4;
+    text-decoration-thickness: 5px;
+
 }
 
-/* fonts  */
+.fontT{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #a28ab4;
+    text-transform:uppercase;
 
-
-
-
-.newHead{
-color:red;
 }
-.newA{
-font-family: "Momo Signature", cursive;
-color: blue;
 
+.aN{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    margin-left: 20px;
+    color:rgb(207, 173, 0);
+}
 
-
+.aN:hover{
+    transition: 0.5s;
+    color:#ffd70ffe;
+    text-decoration:underline;
+    text-decoration-color: #ffabf0;
+    text-decoration-thickness: 5px;
 }
