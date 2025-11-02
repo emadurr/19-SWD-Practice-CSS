@@ -39,7 +39,7 @@
     text-decoration:underline;
     text-decoration-color: #f493f4;
     text-decoration-thickness: 5px;
-
+     text-indent: 10px;
 }
 
 .fontT{
@@ -54,6 +54,7 @@
     font-size: 30px;
     margin-left: 20px;
     color:rgb(207, 173, 0);
+   
 }
 
 .aN:hover{
@@ -62,4 +63,32 @@
     text-decoration:underline;
     text-decoration-color: #ffabf0;
     text-decoration-thickness: 5px;
+}
+
+.cen{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #1b54a3;
+    text-align: center;
+    background-color: #dedede;
+}
+
+.L1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    width:280px;
+    border: 2px solid red;
+   
+}
+.lorem1{
+ text-overflow:ellipsis;
+    overflow: hidden;
+    color:#1b54a3
+}
+
+.lorem2{
+    color: #992784;
+    word-break: break-all;
+}
+body{
+    background-color: rgb(236, 253, 247);
 }
